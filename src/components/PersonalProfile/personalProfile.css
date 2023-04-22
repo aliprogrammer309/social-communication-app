@@ -1,0 +1,30 @@
+.personal-profile-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ask-for-post {
+  width: 330px;
+  height: 150px;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.media-upload {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.posts-container{
+  margin: 0 auto;
+  /* padding-top: 2%; */
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+

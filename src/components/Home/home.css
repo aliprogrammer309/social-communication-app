@@ -1,0 +1,23 @@
+.home-header{
+    /* height: 100px; */
+    background-color: rgb(62, 61, 74);
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+}
+
+.home-main{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.home-main > img {
+    margin: 1rem;
+}
+
+.home-main-text{
+    text-align: center;
+}

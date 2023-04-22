@@ -1,0 +1,87 @@
+.card {
+  width: 40%;
+  padding: 1%;
+  /* border: 1px solid black; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  /* height: 90vh; */
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  /* text-align: center; */
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+label {
+  display: block;
+  margin-bottom: 1%;
+  margin-top: 0.7rem;
+}
+
+input {
+  width: 270px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border: none;
+}
+
+.btn1 {
+  width: 100px;
+  padding: 0.33rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 3%;
+  background-color: rgb(248, 100, 125);
+}
+.btn1:hover {
+  background-color: rgb(216, 62, 88);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 90%;
+  }
+  .container {
+    width: 100%;
+  }
+  input {
+    width: 200px;
+    margin-bottom: 3%;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .card {
+    width: 80%;
+  }
+}

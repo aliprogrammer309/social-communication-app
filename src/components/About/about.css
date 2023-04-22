@@ -1,0 +1,50 @@
+.about-section{
+    width: 100%;
+}
+
+.about-upper{
+    /* height: 25vh; */
+    text-align: center;
+    background-color: rgb(62, 61, 74);
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.about-upper-text{
+    padding: 0.3rem;
+}
+
+.persons-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.person-card{
+    width: 320px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 1%;
+    margin: 1%;
+    /* border: 1px solid black; */
+    /* padding: 0.2rem; */
+}
+
+.person-image > img{
+    width: 100%;
+}
+
+.person-detail > p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.person-card > button{
+    width: 100%;
+    padding: 0.2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
